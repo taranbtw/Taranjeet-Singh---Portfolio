@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export function Projects() {
   const [showMessage, setShowMessage] = useState(false);
-  const projectCount = 3;
+const projectCount = 3;
 
   useEffect(() => {
     if (showMessage) {
@@ -38,7 +38,7 @@ export function Projects() {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-16 max-w-6xl mx-auto">
+<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-16 max-w-6xl mx-auto">
           <FeatureCard
             type="list"
             delay={0}
@@ -69,7 +69,7 @@ export function Projects() {
           />
           <FeatureCard
             type="list"
-            delay={0.3}
+delay={0.3}
             title="Practice Portfolio"
             subtitle="January 2026"
             techStack="HTML, CSS, JavaScript, GSAP, Locomotive JS"
