@@ -5,7 +5,7 @@ A modern, responsive personal developer portfolio built to showcase my projects,
 ---
 
 ## 🚀 Live Demo
-🔗 https://your-live-link-here (add if deployed)
+🔗 https://taranjeetsingh.dev/
 
 ---
 
