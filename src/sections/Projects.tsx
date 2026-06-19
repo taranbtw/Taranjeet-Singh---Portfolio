@@ -38,7 +38,21 @@ const projectCount = 3;
           />
         </div>
 
-<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-16 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-16 max-w-6xl mx-auto">
+          <FeatureCard
+            type="list"
+            delay={0}
+            title="ApexGP – Formula 1 Live Analytics Dashboard"
+            subtitle="June 2026"
+            techStack="React, Node.js, Express.js, Tailwind CSS, Socket.io, OpenF1 API"
+            items={[
+              "Built a real-time Formula 1 analytics dashboard using OpenF1 API with live race data aggregation.",
+              "Developed a session-aware leaderboard with backend deduplication logic to ensure accurate driver positions.",
+              "Implemented a responsive React UI with auto-refreshing standings and scalable Express.js backend architecture.",
+            ]}
+            githubUrl="https://github.com/taranbtw/APX-GP"
+            liveDemoUrl="https://apx-gp.vercel.app/"
+          />
           <FeatureCard
             type="list"
             delay={0}
@@ -69,7 +83,7 @@ const projectCount = 3;
           />
           <FeatureCard
             type="list"
-delay={0.3}
+            delay={0.3}
             title="Practice Portfolio"
             subtitle="January 2026"
             techStack="HTML, CSS, JavaScript, GSAP, Locomotive JS"
@@ -97,7 +111,11 @@ delay={0.3}
               initial={{ y: 20, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.6, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              transition={{
+                delay: 0.6,
+                duration: 0.8,
+                ease: [0.16, 1, 0.3, 1],
+              }}
               onClick={() => setShowMessage(true)}
               className="bg-[#212121] rounded-full pl-6 pr-2 py-2 flex items-center gap-4 hover:gap-6 transition-all duration-300 group text-[#E1E0CC] font-medium text-sm sm:text-base border border-white/5 hover:bg-[#2a2a2a]"
             >
